@@ -1,0 +1,5 @@
+Para o desenvolvimento deste projeto serão utilizada as ferramentas EXPO, Native Base, TypeScript e Android Studio.
+
+EXPO: https://docs.expo.dev/. Usando o comando Quick Start "npx create-expo-app my-app".
+
+Native Base: https://docs.nativebase.io/?utm_source=HomePage&utm_medium=header&utm_campaign=NativeBase_3
