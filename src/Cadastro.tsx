@@ -7,7 +7,7 @@ import { useState } from 'react';
 import { Botao } from './componentes/Botao';
 import { secoes } from './utils/CadastroEntradaTexto';
 
-export default function Login() {
+export default function Cadastro() {
   const [numSecao, setNumSecao] = useState(0);
   
 

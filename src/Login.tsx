@@ -4,8 +4,9 @@ import Logo from './assets/Logo.png';
 import { Titulo } from './componentes/Titulo';
 import { EntradaTexto } from './componentes/EntradaTexto';
 import { Botao } from './componentes/Botao';
+import Principal from './tabs/Principal';
 
-export default function Login() {
+export default function Login({ navigation }) {
   return (
     <VStack flex={1} justifyContent="center" alignItems="center" p={5}>
       <Image source={Logo} alt="Logo Voll" />
@@ -23,7 +24,7 @@ export default function Login() {
           secureTextEntry={true}
         />
       </Box>
-      <Botao>
+      <Botao onPress={() => navigation.navigate('Tabs')}>
         Entrar
       </Botao>
       <Link mt={2} href='https://google.com'>
@@ -36,7 +37,7 @@ export default function Login() {
         justifyContent="center"
       >
         <Text>Ainda não tem cadastro?</Text>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate('Cadastro')} >
           <Text color="blue.500">
             Faça seu cadastro!
           </Text>

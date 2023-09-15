@@ -1,5 +1,17 @@
-Para o desenvolvimento deste projeto serão utilizada as ferramentas EXPO, Native Base, TypeScript e Android Studio.
+Para o desenvolvimento deste projeto serão utilizada as ferramentas TypeScript, Android Studio, EXPO, Native Base, React Navigation e BottomTab.
 
 EXPO: https://docs.expo.dev/. Usando o comando Quick Start "npx create-expo-app my-app".
 
 Native Base: https://docs.nativebase.io/?utm_source=HomePage&utm_medium=header&utm_campaign=NativeBase_3
+
+React Navigation: https://reactnavigation.org/docs/getting-started/
+Para instalar esta biblioteca e dependências, use esses comandos:
+1 ->  npm install @react-navigation/native
+2 ->  npx expo install react-native-screens react-native-safe-area-context
+3 -> npm install @react-navigation/native-stack
+
+BottomTab:
+1 -> npm install @react-navigation/bottom-tabs
+
+Biblioteca de Icones:
+1 -> npm install react-native-vector-icons
