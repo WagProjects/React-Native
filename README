@@ -1,4 +1,4 @@
-Para o desenvolvimento deste projeto serão utilizada as ferramentas TypeScript, Android Studio, EXPO, Native Base, React Navigation e BottomTab.
+Para o desenvolvimento deste projeto foram utilizadas as ferramentas TypeScript, Android Studio, EXPO, Native Base, React Navigation e BottomTab.
 
 EXPO: https://docs.expo.dev/. Usando o comando Quick Start "npx create-expo-app my-app".
 
