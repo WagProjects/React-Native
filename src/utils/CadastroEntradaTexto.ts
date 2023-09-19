@@ -60,7 +60,7 @@ const secoes = [
     },
     {
       id: 3,
-      titulo: 'Para finaliazar, qual seu plano de saúde?',
+      titulo: 'Para finalizar, qual seu plano de saúde?',
       entradaTexto: [],
       checkbox:[
         {
